@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "67929173688",
+    "project_id": "codechat-7286c",
+    "storage_bucket": "codechat-7286c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67929173688:android:81b9435827f2548b228e4d",
+        "android_client_info": {
+          "package_name": "com.example.codebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67929173688-n5502ae0iqg2m6uvuar6p2551skstk5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQg83YskIBK-qvJl6pklZArL-N7yjsnco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67929173688-n5502ae0iqg2m6uvuar6p2551skstk5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
