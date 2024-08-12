@@ -52,4 +52,9 @@
     </string>
     <string name="please_click_back_again_to_exit">please click back again to exit</string>
     <string name="please_wait">Please Wait&#8230;</string>
+    <string name="sign_in_successful">Sign in successful</string>
+    <string name="sign_in_failed">sign in failed</string>
+    <string name="enter_email">enter email</string>
+    <string name="enter_password">enter password</string>
+    <string name="auth_failed">authentication failed</string>
 </resources>

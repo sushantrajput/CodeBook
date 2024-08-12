@@ -19,7 +19,7 @@ class IntroActivity : BaseActivity() {
 
         val btnSignInIntro = findViewById<Button>(R.id.btn_sign_in_intro)
         btnSignInIntro.setOnClickListener {
-            startActivity(Intent(this@IntroActivity, signInActivity::class.java))
+            startActivity(Intent(this@IntroActivity, SignInActivity::class.java))
         }
 
         val btnSignUpIntro = findViewById<Button>(R.id.btn_sign_up_intro)

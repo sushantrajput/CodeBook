@@ -14,13 +14,13 @@ import com.google.firebase.auth.FirebaseAuth
 open class BaseActivity : AppCompatActivity() {
 
     private var doubleBackToExitPressedOnce = false
-    private lateinit var mProgressDialog: Dialog
+    open lateinit var mProgressDialog: Dialog
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
 
-    fun showProgressDialog(text: String) {
+    open fun showProgressDialog(text: String) {
         mProgressDialog = Dialog(this)
         mProgressDialog.setContentView(R.layout.dialog_progress)
         val tvProgressSize: TextView = mProgressDialog.findViewById(R.id.tv_progress_text)
@@ -28,7 +28,7 @@ open class BaseActivity : AppCompatActivity() {
         mProgressDialog.show()
     }
 
-    fun hideProgressDialog() {
+    open fun hideProgressDialog() {
         mProgressDialog.dismiss()
     }
 

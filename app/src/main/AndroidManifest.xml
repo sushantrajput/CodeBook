@@ -15,7 +15,7 @@
             android:name=".activities.BaseActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.signInActivity"
+            android:name=".activities.SignInActivity"
             android:exported="false"
             android:label="@string/sign_in"
             android:theme="@style/AppTheme.NoActionBar" />
